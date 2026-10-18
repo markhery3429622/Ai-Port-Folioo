@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="AI developer portfolio showcasing skills, projects, and learning journey.">
+  <title>NeuralFolio | AI Portfolio</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <nav class="nav">
+    <a class="brand" href="#home"><span class="brand-mark">✳</span> NeuralFolio<span class="dot">.</span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation">☰</button>
+    <div class="nav-links" id="navLinks">
+      <a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#contact">Contact</a>
+    </div>
+    <a class="nav-cta" href="#projects">Explore work <span>↗</span></a>
+  </nav>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="pulse"></span> AI • CODE • INNOVATION</div>
+        <h1>Building a smarter<br>future with <span class="gradient-text">AI.</span></h1>
+        <p class="hero-lede">Hey, I'm <strong>Alex Morgan</strong> — a fictional AI developer exploring machine learning, Python, and thoughtful digital experiences.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#projects">View projects <span>↗</span></a>
+          <a class="button secondary" href="#contact">Let's connect</a>
+        </div>
+        <div class="social-proof"><span class="avatar-stack"><i>A</i><i>AI</i><i>Py</i></span><span>Curiosity-powered. Future-focused.</span></div>
+      </div>
+      <div class="hero-art" aria-label="Abstract glowing AI network illustration">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="ai-core"><div class="core-icon">✳</div><div class="core-label">NEURAL<br><b>NETWORK</b></div></div>
+        <span class="float-chip chip-python">⌘ &nbsp; Python</span>
+        <span class="float-chip chip-ml">✦ &nbsp; Machine learning</span>
+        <span class="float-chip chip-data">▥ &nbsp; Data science</span>
+        <span class="float-chip chip-code">&lt;/&gt;</span>
+        <div class="spark spark-one"></div><div class="spark spark-two"></div><div class="spark spark-three"></div>
+      </div>
+      <div class="hero-bottom"><span>SCROLL TO EXPLORE</span><span class="line"></span><span>01 / 04</span></div>
+    </section>
+
+    <section class="section about-section" id="about">
+      <div class="section-kicker">01 — A LITTLE ABOUT ME</div>
+      <div class="about-grid">
+        <div><h2>Curious mind.<br><span class="gradient-text">Builder's spirit.</span></h2></div>
+        <div class="about-copy"><p>I'm an aspiring AI developer who believes the best way to learn technology is to build with it. I enjoy turning complex ideas into useful, accessible projects.</p><p>This portfolio is a snapshot of my learning journey — from Python fundamentals to the exciting world of intelligent systems.</p><div class="stat-row"><div><strong>03<span>+</span></strong><small>Concept projects</small></div><div><strong>∞</strong><small>Ideas to explore</small></div><div><strong>01</strong><small>Curious mind</small></div></div></div>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <div class="section-kicker">02 — MY TOOLKIT</div>
+      <div class="section-heading"><h2>Skills in progress<span class="gradient-text">.</span></h2><p>Learning today, building better tomorrow.</p></div>
+      <div class="skills-grid">
+        <article class="skill-card"><div class="skill-icon blue">Py</div><h3>Python</h3><p>Core programming, logic, and small applications.</p><div class="skill-level"><span style="width:55%"></span></div><small>Learning</small></article>
+        <article class="skill-card"><div class="skill-icon purple">✳</div><h3>Artificial Intelligence</h3><p>Exploring AI concepts, prompts, and intelligent tools.</p><div class="skill-level"><span style="width:30%"></span></div><small>Exploring</small></article>
+        <article class="skill-card"><div class="skill-icon cyan">▥</div><h3>Data Science</h3><p>Getting started with data, patterns, and insights.</p><div class="skill-level"><span style="width:22%"></span></div><small>Exploring</small></article>
+        <article class="skill-card"><div class="skill-icon pink">&lt;/&gt;</div><h3>Web Development</h3><p>HTML, CSS, JavaScript, and Flask fundamentals.</p><div class="skill-level"><span style="width:35%"></span></div><small>Learning</small></article>
+      </div>
+    </section>
+
+    <section class="section projects-section" id="projects">
+      <div class="section-kicker">03 — SELECTED IDEAS</div>
+      <div class="section-heading"><h2>Projects that <span class="gradient-text">spark ideas.</span></h2><p>Starter concepts that can grow into real projects.</p></div>
+      <div class="projects-grid">
+        <article class="project-card"><div class="project-visual visual-one"><span class="visual-orb">✳</span><span class="visual-caption">CONVERSATIONAL AI</span></div><div class="project-body"><div class="project-type">01 / AI CONCEPT</div><h3>Nova AI Assistant</h3><p>A concept for a helpful assistant that answers questions and makes everyday tasks simpler.</p><div class="tag-row"><span>Python</span><span>NLP</span><span>AI</span></div><a href="#contact" class="project-link">Discuss the idea <span>↗</span></a></div></article>
+        <article class="project-card"><div class="project-visual visual-two"><div class="mini-window"><div class="window-dots">● ● ●</div><div class="chart-bars"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div></div><span class="visual-caption">DATA STORIES</span></div><div class="project-body"><div class="project-type">02 / DATA CONCEPT</div><h3>Insight Dashboard</h3><p>A dashboard idea for transforming raw information into clear visual insights.</p><div class="tag-row"><span>Python</span><span>Data</span><span>Charts</span></div><a href="#contact" class="project-link">Discuss the idea <span>↗</span></a></div></article>
+        <article class="project-card"><div class="project-visual visual-three"><div class="game-shape">⌘</div><span class="visual-caption">LEARN BY BUILDING</span></div><div class="project-body"><div class="project-type">03 / LEARNING PROJECT</div><h3>Python Arcade</h3><p>A collection of beginner-friendly games and coding experiments made for practice.</p><div class="tag-row"><span>Python</span><span>Games</span><span>Learning</span></div><a href="#contact" class="project-link">Discuss the idea <span>↗</span></a></div></article>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <div class="contact-glow"></div><div class="section-kicker">04 — YOUR TURN</div>
+      <div class="contact-grid"><div><h2>Have an idea?<br><span class="gradient-text">Let's talk.</span></h2><p>Have a project idea, a question, or just want to connect? Send a note using the form.</p><div class="contact-note"><span class="note-icon">✉</span><div><small>GET IN TOUCH</small><strong>Let's build something meaningful.</strong></div></div></div>
+      <form id="contactForm" class="contact-form">
+        <label>Your name<input name="name" required placeholder="What should I call you?"></label>
+        <label>Email address<input name="email" type="email" required placeholder="you@example.com"></label>
+        <label>Message<textarea name="message" required rows="4" placeholder="Tell me a little about your idea..."></textarea></label>
+        <button class="button primary submit-button" type="submit">Send message <span>↗</span></button>
+        <p id="formStatus" class="form-status" role="status"></p>
+        <small class="form-note">Demo form: messages are not emailed or stored.</small>
+      </form></div>
+    </section>
+  </main>
+  <footer><a class="brand" href="#home"><span class="brand-mark">✳</span> NeuralFolio<span class="dot">.</span></a><span>Designed for ideas that move us forward.</span><span>© 2026</span></footer>
+  <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
